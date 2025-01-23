@@ -10,6 +10,34 @@
 
 ## 操作说明
 
-刚写完代码，歇会再更新
+**目前本工具仅支持部分资源下载（使用福昕pdf在线阅读器展示的资源），其他目标原理一致但还尚未实现，添加star以提供动力吧！**
 
-给个Star以便不错过最新动态吧！
+### 环境配置
+
+你需要python环境及相关库才能运行本学习软件，py与ipynb效果相同，可根据是否配置了jupyter notebook自由选择
+
+### 链接校园网
+
+由于人大图书馆资源均位于校内服务器，所以必须位于人大环境内才能使用本脚本。如果不在校内，请通过EasyConnect链接并登录（webvpn不行），并且关闭其他代理设备的全局代理设置。
+
+### 运行
+
+<div style="text-align: center;">
+    <img src=".\imgs\1.png" alt="描述1" style="width: 400px; height: auto;" />
+</div>
+
+访问RUC本科教参书全文库并登录，选择需要的资源（目前仅支持福昕阅读器，点击“在线浏览”后外观一致即可），点击在线阅览打开浏览界面。
+
+<div style="text-align: center;">
+    <img src=".\imgs\2.png" alt="描述1" style="width: 400px; height: auto;" />
+</div>
+
+复制当前界面链接，应该形如`http://ifchaf<省略>.gfhc.libproxy.ruc.edu.cn/foxit-htmlreader-web/Reader.do;jsessionid=<省略>?fileid=<省略>&lang=zh-cn&pi=255`，复制链接并记录书籍总页数。
+
+随后运行程序，输入相关参数，等待运行完成。
+
+### 附
+
+再次重申请遵守相关规定，如果代码存在问题或可改进之处可以提交PR共同学习讨论。
+
+**给个Star以便不错过最新动态吧！**
